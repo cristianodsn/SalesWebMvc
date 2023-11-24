@@ -59,7 +59,7 @@ namespace SalesWebMvc.Migrations
                 column: "SellerId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Seller_DepartmentId",
+                name: "IX_Seller_DepartmentId",  
                 table: "Seller",
                 column: "DepartmentId");
         }

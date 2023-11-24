@@ -13,8 +13,7 @@ namespace SalesWebMvc.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    Name = table.Column<string>(nullable: true),
-                    Value = table.Column<double>(nullable: false)
+                    Name = table.Column<string>(nullable: true),                    
                 },
                 constraints: table =>
                 {
